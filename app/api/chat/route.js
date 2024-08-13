@@ -20,7 +20,7 @@ export async function POST(req) {
         messages: [
             { role: "system", content: systemPrompt }, ...data
           ],
-        model: "openai/gpt-3.5-turbo-0613",
+        model: "meta-llama/llama-3.1-8b-instruct:free",
       });
 
     
